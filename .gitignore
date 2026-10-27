@@ -1,0 +1,26 @@
+# Build & binary artifacts
+target/
+*.class
+classpath.txt
+
+# Maven wrapper/local distribution (if portable)
+apache-maven-3.9.9/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Python & Streamlit cache
+__pycache__/
+*.py[cod]
+*$py.class
+.streamlit/
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+.DS_Store
